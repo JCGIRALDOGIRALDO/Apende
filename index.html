@@ -1,21 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--estilos css-->
+    <!--se agrega linea por archivo de estilos-->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles-header.css" />
     <title>aprende a programar</title>
   </head>
   <body>
+    <!--contenedor principal-->
     <div class="container">
-      <header class="header">
-        <h1>APRENDE</h1>
-        <nav class="nav"></nav>
+      <!--cabeza del contenido-->
+      <header class="container-header">
+        <h1 class="container-header__title">APRENDE</h1>
+
+        <!--barra de navegacion-->
+        <nav class="container-nav">
+          <ul class="container-nav__lists">
+            <li class="container-nav__list container-nav__list--box1">
+              <a href="">a</a>
+            </li>
+            <li class="container-nav__list container-nav__list--box2">
+              <a href="">b</a>
+            </li>
+            <li class="container-nav__list container-nav__list--box3">
+              <a href="">c</a>
+            </li>
+            <li class="container-nav__list container-nav__list--box4">
+              <a href="">d</a>
+            </li>
+          </ul>
+        </nav>
       </header>
-      <main class="main-container">
-        <section class="section-primary"></section>
-        <section class="section-primary"></section>
+
+      <!--menu-->
+      <main class="container-main">
+        <section class="section-container section-green">
+          <article>
+            <div class="card"></div>
+          </article>
+        </section>
+        <section class="section-container section-red"></section>
       </main>
-      <footer class="footer"></footer>
+
+      <!--footer-->
+      <footer class="container-footer"></footer>
     </div>
+
+    <!--Codigo JS-->
+    <!--Se agrega linea por codigo-->
+    <script src="js/script.js"></script>
   </body>
 </html>
