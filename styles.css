@@ -1,0 +1,11 @@
+@import url("styles/variables.css");
+@import url("styles/latout.css");
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-secundario);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-texto);
+}
