@@ -51,6 +51,10 @@
   width: 75%;
 }
 
+.section-about__text-reverce {
+  margin: 0 auto;
+}
+
 /* ========== ARTÍCULO 2 (Create Event) ========== */
 .section-about__article--normal {
   display: flex;
